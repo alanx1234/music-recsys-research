@@ -1,0 +1,57 @@
+{
+  "run_dir": "experiments/acoustic_mlp/run_001",
+  "device": "cpu",
+  "seed": 42,
+  "features": [
+    "log_rms_mean",
+    "log_rms_std"
+  ],
+  "targets": [
+    "valence",
+    "arousal"
+  ],
+  "model": {
+    "type": "AcousticMLP",
+    "hidden": 64,
+    "dropout": 0.1
+  },
+  "train": {
+    "lr": 0.001,
+    "weight_decay": 0.0001,
+    "batch_size": 64,
+    "max_epochs": 200,
+    "patience": 20,
+    "best_epoch": 55,
+    "elapsed_sec": 1.1700637340545654
+  },
+  "standardization": {
+    "mean": [
+      -2.469625473022461,
+      0.7118369340896606
+    ],
+    "std": [
+      0.576972484588623,
+      0.43212491273880005
+    ]
+  },
+  "metrics": {
+    "train": {
+      "mse": 1.2103863954544067,
+      "mae": 0.898591160774231,
+      "mae_valence": 0.8579044342041016,
+      "mae_arousal": 0.9392779469490051
+    },
+    "val": {
+      "mse": 1.3447941541671753,
+      "mae": 0.949590265750885,
+      "mae_valence": 0.932811975479126,
+      "mae_arousal": 0.9663686156272888
+    },
+    "test": {
+      "mse": 1.2654139995574951,
+      "mae": 0.9260268211364746,
+      "mae_valence": 0.8947188854217529,
+      "mae_arousal": 0.9573347568511963
+    }
+  }
+}
