@@ -1,0 +1,65 @@
+{
+  "run_dir": "experiments/hybrid_lstm_energy/run_001",
+  "seed": 1337,
+  "device": "cpu",
+  "model": {
+    "type": "HybridModel",
+    "emb_dim": 64,
+    "lstm_hidden": 128,
+    "lstm_layers": 1,
+    "energy_hidden": 64,
+    "dropout": 0.1
+  },
+  "data": {
+    "features_csv": "data/processed/features_v0_energy.csv",
+    "tokens_cache": "data/processed/chords_tokens/chords_tokens_cache.pkl",
+    "x_cols": [
+      "log_rms_mean",
+      "log_rms_std"
+    ],
+    "max_len": 256,
+    "min_len": 1,
+    "min_freq": 1,
+    "vocab_size": 74
+  },
+  "standardization": {
+    "mean": [
+      -2.469625501625102,
+      0.7118368898997576
+    ],
+    "std": [
+      0.5767434818413882,
+      0.4319533952258077
+    ]
+  },
+  "train": {
+    "lr": 0.001,
+    "weight_decay": 0.0001,
+    "batch_size": 64,
+    "max_epochs": 100,
+    "patience": 15,
+    "grad_clip": 1.0,
+    "best_epoch": 7,
+    "elapsed_sec": 21.265273332595825
+  },
+  "metrics": {
+    "train": {
+      "mse": 0.924376368522644,
+      "mae": 0.7763714790344238,
+      "mae_valence": 0.7452168464660645,
+      "mae_arousal": 0.8075261116027832
+    },
+    "val": {
+      "mse": 1.538260817527771,
+      "mae": 1.006484866142273,
+      "mae_valence": 0.9940369725227356,
+      "mae_arousal": 1.0189324617385864
+    },
+    "test": {
+      "mse": 1.4936047792434692,
+      "mae": 0.9980390071868896,
+      "mae_valence": 0.9688940048217773,
+      "mae_arousal": 1.027184009552002
+    }
+  }
+}

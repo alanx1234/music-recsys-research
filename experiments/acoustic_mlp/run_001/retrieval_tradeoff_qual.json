@@ -1,0 +1,148 @@
+{
+  "run_dir": "experiments\\acoustic_mlp\\run_001",
+  "candidates": "trainval",
+  "k_list": [
+    5,
+    10,
+    20
+  ],
+  "beta": 0.1,
+  "gamma": 0.75,
+  "ngram_n": 4,
+  "n_queries": 271,
+  "n_candidates": 1530,
+  "rows": [
+    {
+      "variant": "va_only",
+      "beta_cte": 0.0,
+      "gamma_ngram": 0.0,
+      "K": 5,
+      "mean_gt_va_dist": 1.9146151197792418,
+      "mean_abs_cte_diff": 0.3102375889616259,
+      "mean_ngram_sim": 0.0,
+      "n_queries": 271,
+      "n_candidates": 1530
+    },
+    {
+      "variant": "va_only",
+      "beta_cte": 0.0,
+      "gamma_ngram": 0.0,
+      "K": 10,
+      "mean_gt_va_dist": 1.9353624650033199,
+      "mean_abs_cte_diff": 0.31118922787838754,
+      "mean_ngram_sim": 0.0,
+      "n_queries": 271,
+      "n_candidates": 1530
+    },
+    {
+      "variant": "va_only",
+      "beta_cte": 0.0,
+      "gamma_ngram": 0.0,
+      "K": 20,
+      "mean_gt_va_dist": 1.938964991903833,
+      "mean_abs_cte_diff": 0.31263229780971347,
+      "mean_ngram_sim": 0.0,
+      "n_queries": 271,
+      "n_candidates": 1530
+    },
+    {
+      "variant": "va_plus_cte",
+      "beta_cte": 0.1,
+      "gamma_ngram": 0.0,
+      "K": 5,
+      "mean_gt_va_dist": 1.9234180951030493,
+      "mean_abs_cte_diff": 0.13495524970477799,
+      "mean_ngram_sim": 0.0,
+      "n_queries": 271,
+      "n_candidates": 1530
+    },
+    {
+      "variant": "va_plus_cte",
+      "beta_cte": 0.1,
+      "gamma_ngram": 0.0,
+      "K": 10,
+      "mean_gt_va_dist": 1.918494751708534,
+      "mean_abs_cte_diff": 0.16661108298935134,
+      "mean_ngram_sim": 0.0,
+      "n_queries": 271,
+      "n_candidates": 1530
+    },
+    {
+      "variant": "va_plus_cte",
+      "beta_cte": 0.1,
+      "gamma_ngram": 0.0,
+      "K": 20,
+      "mean_gt_va_dist": 1.9426562471143434,
+      "mean_abs_cte_diff": 0.1965650938533769,
+      "mean_ngram_sim": 0.0,
+      "n_queries": 271,
+      "n_candidates": 1530
+    },
+    {
+      "variant": "va_plus_ngram",
+      "beta_cte": 0.0,
+      "gamma_ngram": 0.75,
+      "K": 5,
+      "mean_gt_va_dist": 1.909433747745528,
+      "mean_abs_cte_diff": 0.30359761587368167,
+      "mean_ngram_sim": 0.014363901837423058,
+      "n_queries": 271,
+      "n_candidates": 1530
+    },
+    {
+      "variant": "va_plus_ngram",
+      "beta_cte": 0.0,
+      "gamma_ngram": 0.75,
+      "K": 10,
+      "mean_gt_va_dist": 1.9395586131683575,
+      "mean_abs_cte_diff": 0.31063374993545984,
+      "mean_ngram_sim": 0.008505807723850012,
+      "n_queries": 271,
+      "n_candidates": 1530
+    },
+    {
+      "variant": "va_plus_ngram",
+      "beta_cte": 0.0,
+      "gamma_ngram": 0.75,
+      "K": 20,
+      "mean_gt_va_dist": 1.9416070199100735,
+      "mean_abs_cte_diff": 0.3122253128523316,
+      "mean_ngram_sim": 0.005143912285188302,
+      "n_queries": 271,
+      "n_candidates": 1530
+    },
+    {
+      "variant": "full",
+      "beta_cte": 0.1,
+      "gamma_ngram": 0.75,
+      "K": 5,
+      "mean_gt_va_dist": 1.916330388639246,
+      "mean_abs_cte_diff": 0.13700424050602966,
+      "mean_ngram_sim": 0.013162389218917192,
+      "n_queries": 271,
+      "n_candidates": 1530
+    },
+    {
+      "variant": "full",
+      "beta_cte": 0.1,
+      "gamma_ngram": 0.75,
+      "K": 10,
+      "mean_gt_va_dist": 1.9175534278264346,
+      "mean_abs_cte_diff": 0.1678440688500985,
+      "mean_ngram_sim": 0.007983636706930025,
+      "n_queries": 271,
+      "n_candidates": 1530
+    },
+    {
+      "variant": "full",
+      "beta_cte": 0.1,
+      "gamma_ngram": 0.75,
+      "K": 20,
+      "mean_gt_va_dist": 1.9418476287729185,
+      "mean_abs_cte_diff": 0.1963468634114494,
+      "mean_ngram_sim": 0.004780518009612591,
+      "n_queries": 271,
+      "n_candidates": 1530
+    }
+  ]
+}

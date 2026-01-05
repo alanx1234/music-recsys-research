@@ -1,0 +1,13 @@
+variant,beta_cte,gamma_ngram,K,mean_gt_va_dist,mean_abs_cte_diff,mean_ngram_sim,n_queries,n_candidates
+va_only,0.0,0.0,5,,,,271,0
+va_only,0.0,0.0,10,,,,271,0
+va_only,0.0,0.0,20,,,,271,0
+va_plus_cte,0.1,0.0,5,,,,271,0
+va_plus_cte,0.1,0.0,10,,,,271,0
+va_plus_cte,0.1,0.0,20,,,,271,0
+va_plus_ngram,0.0,0.75,5,,,,271,0
+va_plus_ngram,0.0,0.75,10,,,,271,0
+va_plus_ngram,0.0,0.75,20,,,,271,0
+full,0.1,0.75,5,,,,271,0
+full,0.1,0.75,10,,,,271,0
+full,0.1,0.75,20,,,,271,0

@@ -1,0 +1,148 @@
+{
+  "run_dir": "experiments/acoustic_mlp/run_001",
+  "candidates": "trainval",
+  "k_list": [
+    5,
+    10,
+    20
+  ],
+  "beta": 0.1,
+  "gamma": 0.75,
+  "ngram_n": 4,
+  "n_queries": 271,
+  "n_candidates": 0,
+  "rows": [
+    {
+      "variant": "va_only",
+      "beta_cte": 0.0,
+      "gamma_ngram": 0.0,
+      "K": 5,
+      "mean_gt_va_dist": NaN,
+      "mean_abs_cte_diff": NaN,
+      "mean_ngram_sim": NaN,
+      "n_queries": 271,
+      "n_candidates": 0
+    },
+    {
+      "variant": "va_only",
+      "beta_cte": 0.0,
+      "gamma_ngram": 0.0,
+      "K": 10,
+      "mean_gt_va_dist": NaN,
+      "mean_abs_cte_diff": NaN,
+      "mean_ngram_sim": NaN,
+      "n_queries": 271,
+      "n_candidates": 0
+    },
+    {
+      "variant": "va_only",
+      "beta_cte": 0.0,
+      "gamma_ngram": 0.0,
+      "K": 20,
+      "mean_gt_va_dist": NaN,
+      "mean_abs_cte_diff": NaN,
+      "mean_ngram_sim": NaN,
+      "n_queries": 271,
+      "n_candidates": 0
+    },
+    {
+      "variant": "va_plus_cte",
+      "beta_cte": 0.1,
+      "gamma_ngram": 0.0,
+      "K": 5,
+      "mean_gt_va_dist": NaN,
+      "mean_abs_cte_diff": NaN,
+      "mean_ngram_sim": NaN,
+      "n_queries": 271,
+      "n_candidates": 0
+    },
+    {
+      "variant": "va_plus_cte",
+      "beta_cte": 0.1,
+      "gamma_ngram": 0.0,
+      "K": 10,
+      "mean_gt_va_dist": NaN,
+      "mean_abs_cte_diff": NaN,
+      "mean_ngram_sim": NaN,
+      "n_queries": 271,
+      "n_candidates": 0
+    },
+    {
+      "variant": "va_plus_cte",
+      "beta_cte": 0.1,
+      "gamma_ngram": 0.0,
+      "K": 20,
+      "mean_gt_va_dist": NaN,
+      "mean_abs_cte_diff": NaN,
+      "mean_ngram_sim": NaN,
+      "n_queries": 271,
+      "n_candidates": 0
+    },
+    {
+      "variant": "va_plus_ngram",
+      "beta_cte": 0.0,
+      "gamma_ngram": 0.75,
+      "K": 5,
+      "mean_gt_va_dist": NaN,
+      "mean_abs_cte_diff": NaN,
+      "mean_ngram_sim": NaN,
+      "n_queries": 271,
+      "n_candidates": 0
+    },
+    {
+      "variant": "va_plus_ngram",
+      "beta_cte": 0.0,
+      "gamma_ngram": 0.75,
+      "K": 10,
+      "mean_gt_va_dist": NaN,
+      "mean_abs_cte_diff": NaN,
+      "mean_ngram_sim": NaN,
+      "n_queries": 271,
+      "n_candidates": 0
+    },
+    {
+      "variant": "va_plus_ngram",
+      "beta_cte": 0.0,
+      "gamma_ngram": 0.75,
+      "K": 20,
+      "mean_gt_va_dist": NaN,
+      "mean_abs_cte_diff": NaN,
+      "mean_ngram_sim": NaN,
+      "n_queries": 271,
+      "n_candidates": 0
+    },
+    {
+      "variant": "full",
+      "beta_cte": 0.1,
+      "gamma_ngram": 0.75,
+      "K": 5,
+      "mean_gt_va_dist": NaN,
+      "mean_abs_cte_diff": NaN,
+      "mean_ngram_sim": NaN,
+      "n_queries": 271,
+      "n_candidates": 0
+    },
+    {
+      "variant": "full",
+      "beta_cte": 0.1,
+      "gamma_ngram": 0.75,
+      "K": 10,
+      "mean_gt_va_dist": NaN,
+      "mean_abs_cte_diff": NaN,
+      "mean_ngram_sim": NaN,
+      "n_queries": 271,
+      "n_candidates": 0
+    },
+    {
+      "variant": "full",
+      "beta_cte": 0.1,
+      "gamma_ngram": 0.75,
+      "K": 20,
+      "mean_gt_va_dist": NaN,
+      "mean_abs_cte_diff": NaN,
+      "mean_ngram_sim": NaN,
+      "n_queries": 271,
+      "n_candidates": 0
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "run_dir": "experiments/symbolic_lstm/run_001",
+  "seed": 1337,
+  "device": "cpu",
+  "model": {
+    "type": "SymbolicLSTMRegressor",
+    "emb_dim": 64,
+    "hidden_dim": 128,
+    "n_layers": 1,
+    "dropout": 0.1
+  },
+  "data": {
+    "features_csv": "data/processed/features_v0_energy.csv",
+    "tokens_cache": "data/processed/chords_tokens/chords_tokens_cache.pkl",
+    "max_len": 256,
+    "min_len": 1,
+    "min_freq": 1,
+    "vocab_size": 74
+  },
+  "train": {
+    "lr": 0.001,
+    "weight_decay": 0.0001,
+    "batch_size": 64,
+    "max_epochs": 100,
+    "patience": 15,
+    "grad_clip": 1.0,
+    "best_epoch": 6,
+    "elapsed_sec": 23.476904153823853
+  },
+  "metrics": {
+    "train": {
+      "mse": 1.2135752439498901,
+      "mae": 0.9065718054771423,
+      "mae_valence": 0.8590107560157776,
+      "mae_arousal": 0.9541327953338623
+    },
+    "val": {
+      "mse": 1.7198411226272583,
+      "mae": 1.0666338205337524,
+      "mae_valence": 1.0102684497833252,
+      "mae_arousal": 1.1229993104934692
+    },
+    "test": {
+      "mse": 1.6107776165008545,
+      "mae": 1.043851613998413,
+      "mae_valence": 0.9830591678619385,
+      "mae_arousal": 1.1046441793441772
+    }
+  }
+}
